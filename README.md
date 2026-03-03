@@ -30,10 +30,7 @@ Repository prep notes:
 - A `.gitignore` is provided to exclude virtual environments, model artifacts (`*.joblib`), and notebook checkpoints.
 - Use `train.py` to reproduce preprocessing and training outside the notebook and to generate artifacts reproducibly.
 - Before pushing large artifacts (models, datasets) consider using Git LFS or excluding them from the repo.
- - Removed unused/irrelevant files (for example: `Untitled.ipynb`).
-
-Next steps:
-- Optional: create a Flask API to serve the model, or build a Power BI / Tableau dashboard.
 
 Contact:
 - Author: Ahmed
+
